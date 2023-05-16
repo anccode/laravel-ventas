@@ -20,7 +20,7 @@ class ExampleTest extends TestCase
         $response = $this ->get('services');
         $response-> assertStatus(200);
     }
-    
+
     public function restservice()
     {
         $response = $this ->get('api/restservice');
